@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLOZE Generator</title>
+</head>
+<body>
+  <p>You can use this program to generate fill-in-the-blank cloze exercises. Simply enter your text in the input field. Words that you want to remove should be surrounded by asterisks (*). Do not include punctuation within the asterisks or it may not render correctly.</p>
+  <ol>
+    <li>Enter your text and add asterisks around the words you want to remove.</li>
+    <li>Click "Generate HTML."</li>
+    <li>Click "Copy to Clipboard."</li>
+    <li>Paste the code into an HTML block in your post.</li>
+  </ol>
+<textarea id="inputText" rows="10" cols="80" placeholder="There once was a *mouse* that lived in a *shoe*."></textarea><br>
+<button id="generateCloze" onClick="generateCloze()">Generate HTML</button>
+<button id="copyToClipboard" onClick="copyToClipboard()">Copy to Clipboard</button><br>
+<textarea id="outputText" rows="50" cols="80"></textarea>
+</div>
+</body>
+<script src="cloze1.js"></script>
+</html>
