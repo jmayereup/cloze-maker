@@ -9,7 +9,7 @@ class ClozeMaker extends HTMLElement {
         const wordbank = [];
         let shuffledWords = [];
         let clozeText = generateCloze();
-        
+    
 
         function generateCloze() {
             let newText = text;
@@ -126,7 +126,7 @@ class ClozeMaker extends HTMLElement {
         // console.log("shadow", shadow.innerHTML);
         const button = shadow.querySelector('button');
         button.addEventListener('click', checkAnswers, { composed: true });
-    }
+   }
 }
 
 customElements.define('cloze-maker', ClozeMaker);
