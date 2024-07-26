@@ -20,7 +20,7 @@ function generateCloze() {
     wordbank.push(word);
     clozeText = clozeText.replace(
       `*${word}*`,
-      `<input type="text" id="word${i}" data-answer="${word}">`
+      `<input type="text" size='12' id="word${i}" data-answer="${word}">`
     );
     i++;
   }
@@ -69,7 +69,7 @@ input[type="text"].incorrect {
     }
 
     #cloze-text {
-      line-height: 1.5;
+      line-height: 1.6;
       background: lightgrey;
       color: black;
       font-size: large;

@@ -20,8 +20,8 @@ class ClozeMaker extends HTMLElement {
             for (const word of words) {
 
                 wordbank.push(word);
-                let wordlength = word.length;
-                let boxsize = wordlength + 12;
+                // let wordlength = word.length;
+                let boxsize = 12;
                 console.log(word);
                 newText = newText.replace(
                     `*${word}*`,
@@ -110,7 +110,7 @@ class ClozeMaker extends HTMLElement {
                     border-radius: 6px;
                     box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
                     
-                line-height: 1.2;
+                line-height: 1.3;
                 background: #f1f1f1;
                 color: black;
                 font-size: large;
