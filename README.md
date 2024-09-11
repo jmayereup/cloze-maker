@@ -1,5 +1,5 @@
 # cloze-maker
-A simple cloze exercise generator for blogs.
+A web component to generate cloze exercises.
 
 Add the script to your server and link to it with script tags.
 <script src="file location"></script>
