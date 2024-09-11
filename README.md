@@ -4,9 +4,6 @@ A simple cloze exercise generator for blogs.
 Add the script to your server and link to it with script tags.
 <script src="file location"></script>
 
-OR use this link which may be periodically updated.
-<script src="https://cdn.jsdelivr.net/gh/jmayereup/cloze-maker/cloze-maker.js"></script>
-
 After that just enclose the text that you want to turn into
 a cloze exercise between the html tags.
 
